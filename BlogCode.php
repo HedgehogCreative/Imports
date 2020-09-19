@@ -11,9 +11,6 @@
 a {
   color: <?php echo $linkColor; ?>;
 }
-
-...
-
 ul#main-nav li a {
   color: <?php echo $linkColor; ?>;
 }
