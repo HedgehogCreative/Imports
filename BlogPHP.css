@@ -1,0 +1,94 @@
+<?php
+header('content-type:text/css');
+echo 'navigation_box a:hover{border-top-width:3px;border-bottom-width:3px;border-color:green;}';
+$randint1 = rand(0,3);
+$randint2 = rand(0,3);
+$randint3 = rand(0,3);
+switch ($randint1)
+{
+    case 0: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/index.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:red;border-top-color:red;';
+        echo '}';
+        break;
+    case 1: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/index.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:blue;border-top-color:blue;';
+        echo '}';
+        break;
+    case 2: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/index.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:purple;border-top-color:purple;';
+        echo '}';
+        break;
+    case 3: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/index.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:yellow;border-top-color:yellow;';
+        echo '}';
+        break;
+    default:
+        echo '';
+}
+switch ($randint2)
+{
+    case 0: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/apsjour.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:red;border-top-color:red;';
+        echo '}';
+        break;
+    case 1: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/apsjour.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:blue;border-top-color:blue;';
+        echo '}';
+        break;
+    case 2: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/apsjour.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:purple;border-top-color:purple;';
+        echo '}';
+        break;
+    case 3: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/apsjour.php"]:hover';
+        echo '{';
+        echo 'border-bottom-color:yellow;border-top-color:yellow;';
+        echo '}';
+        break;
+    default:
+        echo '';
+}
+switch ($randint3)
+{
+    case 0: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/blog.php?u=114458"]:hover';
+        echo '{';
+        echo 'border-bottom-color:red;border-top-color:red;';
+        echo '}';
+        break;
+    case 1: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/blog.php?u=114458"]:hover';
+        echo '{';
+        echo 'border-bottom-color:blue;border-top-color:blue;';
+        echo '}';
+        break;
+    case 2: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/blog.php?u=114458"]:hover';
+        echo '{';
+        echo 'border-bottom-color:purple;border-top-color:purple;';
+        echo '}';
+        break;
+    case 3: 
+        echo '#navigation_box a[href="http://www.artofproblemsolving.com/Forum/blog.php?u=114458"]:hover';
+        echo '{';
+        echo 'border-bottom-color:yellow;border-top-color:yellow;';
+        echo '}';
+        break;
+    default:
+        echo '';
+}
+
